@@ -11,13 +11,13 @@ const config = {
   favicon: 'img/DigitalIDF.ico',
 
   // Set the production url of your site here
-  url: 'https://roadmap.digital.idf.il ',
+  url: 'https://center.digital.idf.il ',
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'DigitalIDF',
-  projectName: 'digitalidf-docusaurus', // Usually your repo name.
+  projectName: 'digitalidf-public-docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,8 +26,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'he',
-    locales: ['he'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -115,6 +115,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    plugins: ['@easyops-cn/docusaurus-search-local'],
 };
 
 module.exports = config;
