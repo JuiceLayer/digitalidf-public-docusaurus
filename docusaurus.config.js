@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DigitalCenter',
-  tagline: 'Welcome to DigitalCenter by DigitalIDF',
-  favicon: 'img/DigitalIDF.ico',
+  title: 'DigitalHub',
+  tagline: 'Welcome to DigitalHub, Where the Journey Unfolds!',
+  favicon: 'img/Hub.png',
 
   // Set the production url of your site here
-  url: 'https://center.digital.idf.il ',
+  url: 'https://hub.digital.idf.il ',
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -55,10 +55,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DigitalCenter',
+        title: 'DigitalHub',
         logo: {
-          alt: 'DigitalCenter Logo',
-          src: 'img/logo.svg',
+          alt: 'DigitalHub Logo',
+          src: 'img/Hub.png',
         },
         items: [
           {
