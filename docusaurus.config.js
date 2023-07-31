@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DigitalIDF/digitalidf-public-docusaurus',
+            'https://github.com/DigitalIDF/digitalidf-public-docusaurus/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
