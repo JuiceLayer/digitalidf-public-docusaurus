@@ -86,19 +86,6 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Our great leader',
-                href: 'https://idodo.dev/',
-              },
-              {
-                label: 'Nimbus\'s AWS SSO',
-                href: 'https://d-936772b4a3.awsapps.com/start/#/',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
