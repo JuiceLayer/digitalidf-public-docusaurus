@@ -67,6 +67,11 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            href: 'https://center.digital.idf.il/',
+            label: 'Center',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -86,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/DigitalIDF',
+                href: 'https://center.digital.idf.il/',
               },
             ],
           },
