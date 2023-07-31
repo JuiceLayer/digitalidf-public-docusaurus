@@ -67,10 +67,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {
-            type: 'localeDropdown',
-            position: 'left',
-          },
         ],
       },
       footer: {
