@@ -1,5 +1,11 @@
 ---
 sidebar_position: 2
+title: עשרת הדיברות
+tags:
+  - The ten commandments
+  - Test
+  - Find me
+  - Search
 ---
 
 # עשרת הדיברות של הדיגיטל
