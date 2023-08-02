@@ -1,0 +1,14 @@
+{
+    "title": {
+      "message": "דיגיטל האב",
+      "description": "The title in the navbar"
+    },
+    "item.label.Tutorial": {
+      "message": "מדריכים",
+      "description": "Navbar item with label Tutorial"
+    },
+    "item.label.Center": {
+      "message": "סנטר",
+      "description": "Navbar item with label Center"
+    }
+  }

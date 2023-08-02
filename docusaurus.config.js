@@ -26,8 +26,14 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'he',
+    locales: ['he', 'en'],
+    // localeConfigs: {
+    //   he: {
+    //     direction: 'rtl',
+    //     htmlLang: 'he-IL',
+    //   },
+    // },
   },
 
   presets: [
@@ -71,6 +77,10 @@ const config = {
             href: 'https://center.digital.idf.il/',
             label: 'Center',
             position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           },
         ],
       },
